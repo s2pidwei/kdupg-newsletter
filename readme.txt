@@ -34,7 +34,7 @@ A: First open browser, and type in "localhost/(foldername)/php/home.php", folder
 A: Navigate to the website root folder, and open config.php. In the file, change the username/password to match your database.
 
 3. So how do i sign in, because I need admin approval after signing up?
-A: A normal account requires admin approval, however if you are the admin, the login id is "000000" and the password is "kdupg_admin". Do change the password to avoid problems.
+A: A normal account requires admin approval, however if you are the admin, the login id is "000000" and the password is "kdupg_admin". Do change the password to avoid problems. Here's a normal account: id:0191234  passowrd:1234qwer
 
 4. What is the "control panel" when I signed in as admin?
 A: It is a webpage that only admins are allowed to come in. It allows changing the announcement at top, and managing users/articles/events.
