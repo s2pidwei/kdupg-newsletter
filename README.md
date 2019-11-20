@@ -1,14 +1,18 @@
 # UOW KDUPG SOFTWARE ENGINEERING ASSIGNMENT
 
-CODE		: CSE3033
-SEMESTER	: SEPTEMBER 2019
-MEMBERS		: 
-LAU ZIHAO 0191331
-LAM JUN WEI 0191673
-CHEONG ZHEN XUAN 0191975
-OH WEI SIANG 0191843
+CODE : CSE3033
 
-==================================================
+SEMESTER : SEPTEMBER 2019
+
+MEMBERS :
+
+LAU ZIHAO 0191331
+
+LAM JUN WEI 0191673
+
+CHEONG ZHEN XUAN 0191975
+
+OH WEI SIANG 0191843
 
 DESCRIPTION:
 This website allows users to publish articles and like, comment or share on those articles. Events can be organized online as well.
