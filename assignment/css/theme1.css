@@ -1,0 +1,365 @@
+body {
+	background-color: rgb(235, 245, 255);
+    background-image: url("../img/bg1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#account_img {
+    max-height: 64px !important;
+    max-width: 64px !important;
+    width: auto;
+    height: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#top_bar {
+	background-color: rgb(35, 119, 204);
+	color: white;
+	padding-top: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+#header_link{
+    color: white;
+}
+
+#header_profile_pic{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+h2 {
+	display: inline;
+	padding: 5px;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+#title_bar {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+form {
+	padding: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+#annContainer {
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0px 0px 5px black;
+}
+
+#announcement {
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    height: 30px;
+}
+
+#scrollingText {
+    padding-bottom: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#follow_button, #edit_article_button, #delete_article_button{
+    float: right;
+}
+
+#login_container{
+	background-color: white;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(233, 237, 240);
+	box-shadow: 0px 0px 30px white;
+}
+
+#become_member, #write_box, #event_container, #event_box_1{
+	margin: 20px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(233, 237, 240);
+	box-shadow: 0px 0px 30px white;
+}
+
+#event_detail {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(233, 237, 240);
+	box-shadow: 0px 0px 30px white;
+}
+
+#event_side_box, #event_side_box2 {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(233, 237, 240);
+	box-shadow: 0px 0px 30px white;
+}
+
+#event_button, #joinEventBtn, #leaveEventBtn, #inviteToJoin {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.joinLeaveEvent{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#search_box {
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px black;
+}
+
+#categoryDropdown {
+    margin: 20px;
+}
+
+#profile_container{
+    margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#write_container {
+    margin: 20px;
+}
+
+#write_button {
+    width: 100%;
+}
+
+#article_container{
+    background-color: rgb(235, 0, 0);
+}
+
+.article_total_likes {
+    color: rgb(118, 176, 219); 
+    float: left;
+}
+
+#article_total_comments{
+    color: rgb(118, 176, 219); 
+    float: right;
+}
+
+#article_section{
+    padding: 20px;
+}
+
+#article_box{
+    background-color: white;
+    border-radius: 8px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(82, 137, 179);
+	box-shadow: 0px 0px 30px rgb(118, 176, 219);
+}
+
+#article_owner{
+    background-color: rgb(118, 176, 219);
+    border-radius: 5px;
+}
+
+#article_option{
+    width:100%;
+}
+
+#categoryBox {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+#article_content{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#article_content_text {
+    background-color: rgb(240,240,240);
+    padding: 5px;
+}
+
+#article_username{
+    font-weight : bold;
+}
+
+#sign_up_box{
+   background-color: rgb(118, 176, 219); 
+    padding: 50px;
+    margin: 50px;
+}
+
+#sign_up_info{
+    font-weight : bold;
+    font-size : 20px;
+}
+
+#view_article_div{
+    background-color: rgb(118, 176, 219); 
+    border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(82, 137, 179);
+	box-shadow: 0px 0px 30px rgb(118, 176, 219);
+    margin: 10px;
+    margin-left:20%;
+    width: 60%;
+    height: 100%;
+    top: 15%;
+}
+
+#view_article_div2{
+    margin: 10px;
+    top: 15%;
+    width: 100%;
+}
+
+#view_article_box{
+    background-color: white;
+    min-height: 30%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+#view_commment_box{
+    background-color: white;
+    min-height: 30%;
+    height: auto;
+    padding: 20px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+#view_article_contents{
+    height:300px;
+    overflow:auto;
+    background-color: rgb(250, 250, 250);
+    border-style: solid;
+	border-color: rgb(240, 240, 240);
+	border-width: 1px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+
+#view_event_box{
+    background-color: white;
+    min-height: 30%;
+    height: auto;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+#shareButtonCol{
+    text-align:center; 
+}
+
+#likeButtonCol,#commentButtonCol{
+    text-align:center; 
+    width:33%;
+}
+
+.likeButton {
+    background: none;
+    border: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.likeButton:hover {
+    background: #aeb1b5;
+}
+
+#articleRejectedBtn{
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background: none;
+}
+
+#articleRejectedBtn:hover {
+    background: #aeb1b5;
+}
+
+#modal_content_box {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#edit_article_header{
+    background-color: rgb(35, 119, 204);
+    color: white;
+}
+
+#edit_article_input{
+    margin-top: 10px;
+    width: 100%;
+    height: 550px;
+
+}
+
+#forget_pw_box {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px;
+	box-shadow: 0px 0px 30px lightgrey;
+}

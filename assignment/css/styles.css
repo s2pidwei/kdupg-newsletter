@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#top_bar {
+	background-color: rgb(125, 75, 255);
+	color: white;
+	padding: 5px;
+}
+
+h2 {
+	display: inline;
+	padding: 5px;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+#title_bar {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+form {
+	padding: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+#become_member, #write_box, #event_container, #article_box_1, #event_box_1, #login_container{
+	margin: 20px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px black;
+}
+
+#search_box {
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px black;
+}
+
+#profile_container{
+    margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(235, 245, 255);
+    background-image: url("../img/bg1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3 {
+    color:black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main_container {
+    border: 1px solid grey;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px grey;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#annTable {
+    width: 100%;
+}
+
+#annAlign {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#tableWordWrap {
+    table-layout: fixed;
+}
+
+#cellIdWidth{
+    width: 5%;
+}
+
+#cellTitleWidth{
+    width: 20%;
+}
+
+#cellWidthGuide {
+    width: 40%;
+}
+
+#cellWordWrap {
+    word-wrap: break-word;
+}
+
+#dropdownPendingContainer, #dropdownReportedContainer {
+    display: inline-block;
+}
+
+#actionBtn {
+    text-align: center;
+    width: 42px;
+}
+
+#actCol {
+    width: 15%;
+}
